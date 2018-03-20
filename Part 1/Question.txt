@@ -1,0 +1,9 @@
+controllers/ student.js:
+exports.putStudent:
+req.params.student_id
+
+
+Student v.s. student
+
+Put:
+更改時必須保留最後一次輸入的資料
