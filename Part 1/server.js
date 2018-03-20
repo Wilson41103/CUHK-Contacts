@@ -5,6 +5,8 @@ var studentController = require('./controllers/student.js');
 
 mongoose.connect('mongodb://WilsonWang:w4i5l6s0o8n00@ds151558.mlab.com:51558/login');
 
+console.log('hi');
+
 var app = express();
 
 app.use(bodyParser.json());
